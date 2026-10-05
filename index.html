@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Evasão Escolar no Brasil | Projeto G2</title>
+    <style>
+        :root { --primary-color: #1a73e8; --bg-color: #f0f2f5; --card-bg: #ffffff; --text-color: #333; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-color); margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        .main-container { width: 100%; max-width: 900px; display: flex; flex-direction: column; gap: 20px; }
+        header { background: var(--card-bg); padding: 30px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border-left: 6px solid #1a73e8; }
+        header h1 { margin: 0 0 10px 0; color: #1a73e8; font-size: 1.8em; }
+        header p { margin: 5px 0; color: #555; font-size: 0.95em; }
+        .card { background: var(--card-bg); padding: 25px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+        .card h2 { margin-top: 0; color: #1a73e8; font-size: 1.3em; }
+        .card p { color: #555; font-size: 0.95em; margin-bottom: 20px; }
+        .btn-group { display: flex; gap: 12px; flex-wrap: wrap; }
+        .btn { display: inline-block; padding: 10px 20px; background-color: #2b3e50; color: white; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.9em; transition: background 0.2s; }
+        .btn:hover { background-color: #1a252f; }
+        .btn-primary { background-color: #1a73e8; }
+        .btn-primary:hover { background-color: #1557b0; }
+        ul { color: #555; padding-left: 20px; font-size: 0.95em; }
+        li { margin-bottom: 6px; }
+        .grid-indicators { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .indicator-item { background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #1a73e8; }
+        .indicator-item h4 { margin: 0 0 5px 0; color: #333; }
+        .indicator-item p { margin: 0; font-size: 0.85em; color: #666; }
+        footer { text-align: center; padding: 20px; color: #777; font-size: 0.85em; }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>Análise de Evasão Escolar no Ensino Médio</h1>
+            <p><strong>Aluno:</strong> Miguel Soares Marreiros | <strong>Curso:</strong> Sistemas de Informação (Unilasalle-RJ)</p>
+            <p><strong>Professor:</strong> Alexandre Neves Louzada | <strong>Disciplina:</strong> Linguagem de Programação — Análise e Visualização de Dados com Python</p>
+        </header>
+        <div class="card">
+            <h2>Sobre o projeto</h2>
+            <p>Este projeto consiste numa aplicação analítica voltada a investigar os padrões e índices de evasão escolar no ensino médio brasileiro (2015-2024). Analisamos o impacto de fatores como renda familiar, desempenho, infraestrutura e vulnerabilidade regional.</p>
+        </div>
+        <div class="card">
+            <h2>Acesso à Aplicação e Repositório</h2>
+            <div class="btn-group">
+                <a href="LINK_DO_SEU_STREAMLIT_AQUI" class="btn btn-primary" target="_blank">Acessar Dashboard Streamlit</a>
+                <a href="https://github.com/LuanFernand0/projeto-evasao-escolar" class="btn" target="_blank">Ver Repositório GitHub</a>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Perguntas Orientadoras</h2>
+            <ul>
+                <li>Quais estados e regiões apresentam as maiores taxas de evasão escolar?</li>
+                <li>A evasão aumentou ou diminuiu ao longo do tempo (2015-2024)?</li>
+                <li>Há diferenças significativas no abandono escolar entre escolas públicas e privadas?</li>
+                <li>Qual é a relação entre a renda média familiar e a taxa de evasão?</li>
+                <li>Quais séries do ensino médio apresentam o momento mais crítico de abandono?</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Indicadores Analisados (KPIs)</h2>
+            <div class="grid-indicators">
+                <div class="indicator-item"><h4>Taxa Média de Evasão</h4><p>Percentual médio nacional de abandono.</p></div>
+                <div class="indicator-item"><h4>Total de Evasões</h4><p>Soma geral de alunos que deixaram os estudos.</p></div>
+                <div class="indicator-item"><h4>Estado Mais Crítico</h4><p>Unidade federativa com maior índice de evasão.</p></div>
+                <div class="indicator-item"><h4>Série com Maior Risco</h4><p>Ano do ensino médio com maior taxa de abandono.</p></div>
+            </div>
+        </div>
+    </div>
+    <footer><p>Centro Universitário LaSalle (Unilasalle-RJ) — 2026</p></footer>
+</body>
+</html>
