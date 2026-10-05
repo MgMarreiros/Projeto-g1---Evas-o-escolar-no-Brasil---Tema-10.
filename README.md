@@ -9,6 +9,10 @@
 
 ---
 
+## Links
+**Dashboard**: https://projeto-g1---evas-o-escolar-no-brasil---tema-10-brkv2jl8psewhv.streamlit.app/
+**Pages**: https://mgmarreiros.github.io/Projeto-g1---Evas-o-escolar-no-Brasil---Tema-10./
+
 ## 🏫 Sobre o Projeto
 Este repositório contém o desenvolvimento de uma aplicação analítica para investigar padrões de evasão escolar no ensino médio brasileiro entre os anos de 2015 e 2024. O objetivo é identificar regiões mais afetadas, analisar a evolução temporal, comparar redes de ensino (pública vs. privada) e investigar fatores socioeconômicos (como renda) associados ao abandono escolar.
 
