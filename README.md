@@ -10,7 +10,7 @@
 ---
 
 ## Links
-**Dashboard**: https://projeto-g1---evas-o-escolar-no-brasil---tema-10-brkv2jl8psewhv.streamlit.app/
+**Dashboard**: https://projeto-g1---evas-o-escolar-no-brasil---tema-10-brkv2jl8psewhv.streamlit.app/  
 **Pages**: https://mgmarreiros.github.io/Projeto-g1---Evas-o-escolar-no-Brasil---Tema-10./
 
 ## 🏫 Sobre o Projeto
